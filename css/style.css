@@ -1,0 +1,224 @@
+/*Estilat sobre elements HTML */
+body {
+    background-color: powderblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+    
+}
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    margin: 5px;
+    padding: 5px;
+   
+   
+}
+
+/*Classes Contenidors */
+.contenidor {
+    
+    width: 75%;
+    margin: 10px auto 50px auto;
+    
+}
+
+.containerdemoreel {
+    width: 80%;
+    margin: auto;
+    margin: top;
+    display: flex;
+    border: 1px solid lightblue;
+    text-align: center;
+}
+
+.contenidor-xxss {
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    box-sizing: border-box;
+    
+}
+
+.contenidor-flex {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+   
+   
+}
+
+.contenidor-imatge {
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.contenidor-text {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenidor-text-cv {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+
+.contenidor-footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    padding: 5px 24px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*Classes botons*/
+.boto-flex {
+    flex: 1 150px;
+    padding: 12px;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid grey;
+    margin: 5px;
+    text-align: center;
+}
+
+.boto-flex:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.fa-instagram,
+.fa-vimeo {
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.fa-instagram:hover,
+.fa-behance:hover {
+    color: royalblue;
+}
+
+.links {
+    color: royalblue;
+}
+
+.links:hover {
+    color: royalblue;
+    border-bottom: 1px solid ;
+}
+
+
+
+/*Classes imatges*/
+.imatge1 {
+    width: 100%;
+}
+
+.imatge2 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .imatge2 {
+        width: 100%;
+        display: block;
+        width: 100%;
+    }
+}
+
+/*Classes Slider*/
+.clearfix {
+        overflow: auto;
+    }
+
+    .container {
+        width: 75%;
+        margin: auto;
+        border: 1px solid red;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .container-display {
+        position: relative;
+        width: 100%;
+        /*indicador*/
+        margin: 50px;
+        text-align: center;
+
+    }
+
+    .container-text {
+        text-align: left;
+        /*indicador*/
+        margin: 5px;
+        border: 1px dashed purple;
+    }
+
+    .boton-slider {
+        width: 30px;
+        height: 30px;
+        background-color: grey;
+    }
+
+    .boton-slider:hover {
+        width: 30px;
+        height: 30px;
+        background-color: ghostwhite;
+    }
+
+    .fletxaDreta-slider {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        */
+    }
+
+    .fletxaEsquerra-slider {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(0%, -50%);
+    }
+
+
+    .mySlides {
+        display: none;
+    }
+
+
+
