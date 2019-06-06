@@ -2,9 +2,12 @@
 
 /*Estilat sobre elements HTML */
 body {
-    background-color: powderblue;
+    background-image: url(../imatges/blur-background-6z-1920x1080.jpg);
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
+    
 }
 
 h1{
@@ -16,11 +19,18 @@ h1{
     
 }
 h2,
-h3,
+
 h4 {
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 1px;
     font-size: 30px;
+}
+
+h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-align: center;
 }
 
 
@@ -103,7 +113,7 @@ nav {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    background-color: grey;
+   
 }
 
 /*Classes botons*/
